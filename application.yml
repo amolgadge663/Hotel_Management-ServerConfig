@@ -5,10 +5,6 @@ spring:
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
 
-  application:
-    name: DEFAULT-CONFIG
-
-
   jpa:
     hibernate:
       ddl-auto: update
@@ -16,7 +12,6 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQL8Dialect
-
 
 eureka:
   instance:
